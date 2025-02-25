@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "target": "esnext",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "removeComments": true,
+        "skipLibCheck": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": ["esnext", "esnext.asynciterable"],
+        "types": ["node"],
+        "baseUrl": ".",
+        "paths": {
+            "*": ["types/*"]
+        }
+    },
+    "include": ["./src"]
+}
