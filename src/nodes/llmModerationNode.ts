@@ -3,7 +3,7 @@ import { findLast, isEmpty, replace, trim } from 'lodash';
 import { AppAgentState } from '../states/appState';
 import { parseJson, stringify } from '../utils/utils';
 import { getLLMModerationNodePrompt } from '../utils/appPrompts';
-import { model } from '../modes/models';
+import { model } from '../models/models';
 
 export const llmModerationNode = async (state: AppAgentState) => {
     console.log('---LLM MODERATION---');

@@ -1,5 +1,5 @@
 import { getArxivTool } from "./arxivApi";
-import { getGoogleSearchTool } from "./googleSearchToot";
+import { getGoogleSearchTool } from "./googleSearchTool";
 
 export const tools = [
     getGoogleSearchTool,
