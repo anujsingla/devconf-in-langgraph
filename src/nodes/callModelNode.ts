@@ -1,6 +1,6 @@
 import { isAIMessage, SystemMessage } from '@langchain/core/messages';
 import { AppAgentState } from '../states/appState';
-import { model } from '../modes/models';
+import { model } from '../models/models';
 import { CALL_MODEL_NODE_PROMPT } from '../utils/appPrompts';
 
 export const callModelNode = async (state: AppAgentState) => {

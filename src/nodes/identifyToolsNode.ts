@@ -5,7 +5,7 @@ import map from 'lodash/map';
 import join from 'lodash/join';
 import findLast from 'lodash/findLast';
 import initial from 'lodash/initial';
-import { modelWithTools } from '../modes/models';
+import { modelWithTools } from '../models/models';
 import { AppAgentState } from '../states/appState';
 import { getIdentifyToolsNodePrompt } from '../utils/appPrompts';
 
